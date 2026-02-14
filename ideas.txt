@@ -1,0 +1,23 @@
+Steps:
+
+1. Sign-up
+2. Activation (Onboarding & Connection)
+3. Publishing
+4. Engagement
+5. Growth
+
+Metrics:
+
+- Annual Recurring Revenue (ARR): $22.6M
+- Monthly Recurring Revenue (MRR): $1.9M
+- Customers: 67,000
+- Average Revenue per User (ARPU): $28.17
+- Customer Lifetime Value (LTV): $438.1
+- Customer Churn Rate: 6.98% X
+- Monthly Active Users (MAU): 190,000
+- Revenue Per Employee: 315,746
+
+Deciisons:
+- which factors affect churn
+- 
+
