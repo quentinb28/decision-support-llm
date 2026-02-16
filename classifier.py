@@ -39,5 +39,4 @@ Return your answer as JSON in this exact format:
         temperature=0
     )
 
-    return response.choices[0].message.content
-
+    return json.loads(response.choices[0].message.content)
