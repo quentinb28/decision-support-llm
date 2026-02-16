@@ -2,10 +2,14 @@ import json
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
+import streamlit as st
+
+api_key = st.secrets["OPENAI_API_KEY"]
+model = st.secrets["MODEL"]
 
 load_dotenv()
 
-client = OpenAI()
+client = OpenAI(api_key=api_key)
 
 # Load taxonomy
 with open("taxonomy.json", "r") as f:
@@ -34,7 +38,7 @@ Return your answer as JSON in this exact format:
 """
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="model",
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
