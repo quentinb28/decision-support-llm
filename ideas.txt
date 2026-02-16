@@ -17,7 +17,9 @@ Metrics:
 - Monthly Active Users (MAU): 190,000
 - Revenue Per Employee: 315,746
 
-Deciisons:
+Decisions:
 - which factors affect churn
 - 
 
+Lifecycle Data:
+- 
