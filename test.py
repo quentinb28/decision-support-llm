@@ -1,17 +1,11 @@
-from classifier import classify_pattern
-from action_mapper import get_suggested_action
+from main import get_next_move
 
-text = "I keep thinking about starting but I end up scrolling instead"
+text = "I feel overwhelmed and I keep avoiding starting my report"
 
-result = classify_pattern(text)
+result = get_next_move(text)
 
-label = result["label"]
-confidence = result["confidence"]
+print(result)
 
-action = get_suggested_action(label)
 
-print("Label:", label)
-print("Confidence:", confidence)
-print("Suggested Action:", action)
 
 
