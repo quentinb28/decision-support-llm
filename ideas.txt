@@ -17,7 +17,32 @@ Metrics:
 - Monthly Active Users (MAU): 190,000
 - Revenue Per Employee: 315,746
 
-Deciisons:
+Decisions:
 - which factors affect churn
 - 
+
+Employer seeks:
+- Can you structure a problem?
+- Can you design a pipeline?
+- Can you handle data?
+- Can you evaluate outputs?
+- Can you deploy something usable?
+
+Goal: An LLM-based Decision Support Tool that helps users move from anxious rumination → next aligned step/action (NAS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
