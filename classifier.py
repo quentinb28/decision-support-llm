@@ -41,7 +41,7 @@ Return your answer as JSON in this exact format:
 """
 
     response = client.chat.completions.create(
-        model="model",
+        model=model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
