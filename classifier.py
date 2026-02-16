@@ -1,13 +1,16 @@
 import json
 from openai import OpenAI
-from dotenv import load_dotenv
 import os
 import streamlit as st
 
-api_key = st.secrets["OPENAI_API_KEY"]
-model = st.secrets["MODEL"]
+if os.path.exists(".env"):
+    from dotenv import load_dotenv
+    load_dotenv()
+    api_key = os.getenv("OPENAI_API_KEY")
+else:
+    api_key = st.secrets["OPENAI_API_KEY"]
 
-load_dotenv()
+model = st.secrets["MODEL"]
 
 client = OpenAI(api_key=api_key)
 
