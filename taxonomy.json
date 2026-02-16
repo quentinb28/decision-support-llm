@@ -1,0 +1,78 @@
+{
+  "rumination": {
+    "description": "Excessive overthinking without movement toward action.",
+    "signals": [
+      "I keep thinking about it",
+      "I don’t know what to do",
+      "I’m stuck in my head",
+      "I’m going in circles"
+    ],
+    "suggested_action": "Identify the smallest physical step you can take in the next 5 minutes."
+  },
+
+  "avoidance": {
+    "description": "Avoiding a task despite knowing it matters.",
+    "signals": [
+      "I keep putting it off",
+      "I’m distracting myself",
+      "I don’t want to start",
+      "I keep procrastinating"
+    ],
+    "suggested_action": "Start with a 5-minute version of the task."
+  },
+
+  "perfectionism": {
+    "description": "Delay caused by fear of doing something imperfectly.",
+    "signals": [
+      "It has to be right",
+      "I want to do it properly",
+      "It’s not good enough",
+      "I’m not ready yet"
+    ],
+    "suggested_action": "Define what ‘good enough for now’ looks like."
+  },
+
+  "fear_of_wrong_choice": {
+    "description": "Hesitation due to fear of making the wrong decision.",
+    "signals": [
+      "What if this is the wrong move",
+      "I don’t want to mess up",
+      "I might regret this",
+      "I’m scared to commit"
+    ],
+    "suggested_action": "Choose the reversible option and test it."
+  },
+
+  "urgency_panic": {
+    "description": "Feeling overwhelmed by perceived time pressure.",
+    "signals": [
+      "I’m running out of time",
+      "Everything feels urgent",
+      "I’m overwhelmed",
+      "There’s too much to do"
+    ],
+    "suggested_action": "Pick one task that reduces pressure the most."
+  },
+
+  "imposter_syndrome": {
+    "description": "Questioning competence or role legitimacy.",
+    "signals": [
+      "I’m not really qualified",
+      "This isn’t me",
+      "I’m an impostor",
+      "I shouldn’t be doing this"
+    ],
+    "suggested_action": "Act as the role for the next 10 minutes."
+  },
+
+  "emotional_overload": {
+    "description": "High emotional activation interfering with action.",
+    "signals": [
+      "I feel too anxious",
+      "I’m stressed",
+      "I can’t focus",
+      "I feel frozen"
+    ],
+    "suggested_action": "Take 3 slow breaths before choosing the next step."
+  }
+}

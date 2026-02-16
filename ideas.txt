@@ -23,3 +23,30 @@ Decisions:
 
 Lifecycle Data:
 - 
+
+Employer seeks:
+- Can you structure a problem?
+- Can you design a pipeline?
+- Can you handle data?
+- Can you evaluate outputs?
+- Can you deploy something usable?
+
+Goal: An LLM-based Decision Support Tool that helps users move from anxious rumination → next aligned step/action (NAS).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 31674bb19b279af391038a72a1ff23736324a809
