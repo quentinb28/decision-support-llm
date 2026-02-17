@@ -2,20 +2,14 @@ import json
 from openai import OpenAI
 import os
 import streamlit as st
+from src.llm.client import get_client
+from src.config import get_model
 
-if os.path.exists(".env"):
-    from dotenv import load_dotenv
-    load_dotenv()
-    api_key = os.getenv("OPENAI_API_KEY")
-else:
-    api_key = st.secrets["OPENAI_API_KEY"]
-
-model = st.secrets["MODEL"]
-
-client = OpenAI(api_key=api_key)
+client = get_client()
+MODEL = get_model()
 
 # Load taxonomy
-with open("taxonomy.json", "r") as f:
+with open("data/taxonomy.json", "r") as f:
     taxonomy = json.load(f)
 
 labels = list(taxonomy.keys())
@@ -41,7 +35,7 @@ Return your answer as JSON in this exact format:
 """
 
     response = client.chat.completions.create(
-        model=model,
+        model=MODEL,
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )

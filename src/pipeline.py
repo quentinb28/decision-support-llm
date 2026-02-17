@@ -1,5 +1,5 @@
-from classifier import classify_pattern
-from action_mapper import get_suggested_action
+from src.decision.classifier import classify_pattern
+from src.decision.action_mapper import get_suggested_action
 
 
 def get_next_move(user_input):
@@ -9,6 +9,7 @@ def get_next_move(user_input):
 
     label = result["label"]
     confidence = result["confidence"]
+    confidence = f"{confidence:.0%}"
 
     # Step 2: retrieve aligned action
     action = get_suggested_action(label)

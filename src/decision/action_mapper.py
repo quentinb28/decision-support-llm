@@ -1,6 +1,6 @@
 import json
 
-with open("taxonomy.json", "r") as f:
+with open("data/taxonomy.json", "r") as f:
     taxonomy = json.load(f)
 
 

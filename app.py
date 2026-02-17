@@ -1,5 +1,5 @@
 import streamlit as st
-from main import get_next_move
+from src.pipeline import get_next_move
 
 st.set_page_config(page_title="Decision Support Tool")
 

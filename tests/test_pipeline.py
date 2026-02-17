@@ -1,4 +1,4 @@
-from main import get_next_move
+from src.pipeline import get_next_move
 
 text = "I feel overwhelmed and I keep avoiding starting my report"
 
