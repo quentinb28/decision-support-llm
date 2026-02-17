@@ -1,4 +1,4 @@
-#Core Assumption: The Modern Execution Gap
+# Core Assumption: The Modern Execution Gap
 
 We believe that one of the most pervasive and increasing challenges people face today is not a lack of insight, clarity, or access to information — but the inability to consistently act on decisions they have already internally made when those decisions involve uncertainty, tradeoffs, or emotional exposure.
 
@@ -40,3 +40,10 @@ If our approach is effective, users should demonstrate measurable improvements i
 * Reduce reliance on reversible or externally-imposed defaults
 
 These changes represent an increase in decision-making capacity ("decision muscle") and personal self-leadership in day-to-day contexts.
+
+If a feature does not help someone:
+
+* decide sooner, or (Metric: Decision Latency Rate)
+* follow through more (Metric: Follow Through Rate)
+
+it’s out of scope for now.
