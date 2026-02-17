@@ -1,6 +1,6 @@
-# Core Success Event
+# Activation
 
-Example:
+Core Success Event:
 
 User takes one real-world action within 48h toward a decision they had previously delayed.
 
@@ -18,4 +18,5 @@ This will drive:
 * Progress indicators
 
 Your app’s internal logic should optimize toward increasing this event rate.
+
 
