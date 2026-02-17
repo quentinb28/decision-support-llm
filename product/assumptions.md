@@ -1,4 +1,6 @@
-# Core Assumption: The Modern Execution Gap
+# Assumptions
+
+**Core Assumption: The Modern Execution Gap**
 
 We believe that one of the most pervasive and increasing challenges people face today is not a lack of insight, clarity, or access to information — but the inability to consistently act on decisions they have already internally made when those decisions involve uncertainty, tradeoffs, or emotional exposure.
 
