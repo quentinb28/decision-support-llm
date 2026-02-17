@@ -12,12 +12,10 @@ Then define:
 
 This will drive:
 
-Event tracking
-
-Session design
-
-Notification logic
-
-Progress indicators
+* Event tracking
+* Session design
+* Notification logic
+* Progress indicators
 
 Your app’s internal logic should optimize toward increasing this event rate.
+
