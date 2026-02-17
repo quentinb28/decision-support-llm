@@ -1,5 +1,4 @@
 
-pip install --upgrade pip
 streamlit
 openai
 pandas==2.1.4
