@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 from datetime import datetime, timedelta
-from src.decision import classifier, actio
+from src.decision import classifier, action_mapper
 
 PROFILE_PATH = "data/profile.json"
 DECISION_PATH = "data/decisions.json"
