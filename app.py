@@ -2,22 +2,10 @@ import streamlit as st
 import json
 from datetime import datetime, timedelta
 from src.decision import classifier, action_mapper
+from src.value_extractor import extract_values
 
 PROFILE_PATH = "data/profile.json"
 DECISION_PATH = "data/decisions.json"
-
-DEFAULT_VALUES = [
-    "Integrity",
-    "Authenticity",
-    "Autonomy",
-    "Courage",
-    "Contribution",
-    "Compassion",
-    "Growth",
-    "Stability",
-    "Creativity",
-    "Freedom"
-]
 
 # -------------------------
 # Helpers
