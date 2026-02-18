@@ -1,6 +1,6 @@
-from src.config import get_api_key
+from src.llm.client import get_client
 
-client = OpenAI(api_key=get_api_key())
+client = get_client()
 
 def extract_values(future_self_text: str):
 
