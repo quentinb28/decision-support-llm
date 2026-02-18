@@ -68,7 +68,7 @@ with tab1:
 
             save_profile(profile)
             st.success("Profile saved!")
-            st.experimental_rerun()
+            st.rerun()
 
         st.stop()
 
