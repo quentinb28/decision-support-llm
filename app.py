@@ -2,22 +2,10 @@ import streamlit as st
 import json
 from datetime import datetime, timedelta
 from src.decision import classifier, action_mapper
+from src.value_extractor import extract_values
 
 PROFILE_PATH = "data/profile.json"
 DECISION_PATH = "data/decisions.json"
-
-DEFAULT_VALUES = [
-    "Integrity",
-    "Authenticity",
-    "Autonomy",
-    "Courage",
-    "Contribution",
-    "Compassion",
-    "Growth",
-    "Stability",
-    "Creativity",
-    "Freedom"
-]
 
 # -------------------------
 # Helpers
@@ -69,11 +57,7 @@ with tab1:
             "What future version of you are you trying not to betray through your decisions?"
         )
 
-        values = st.multiselect(
-            "Select your top 5 values:",
-            DEFAULT_VALUES,
-            max_selections=5
-        )
+        values = extract_values(future_self)
 
         if st.button("Save Profile"):
 
