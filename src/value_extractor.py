@@ -32,7 +32,8 @@ User description:
     raw = response.choices[0].message.content.strip()
 
     try:
-        values = eval(raw)
+        import ast
+        values = ast.literal_eval(raw)
     except:
         values = ["Integrity", "Growth", "Autonomy"]
 

@@ -2,10 +2,22 @@ import streamlit as st
 import json
 from datetime import datetime, timedelta
 from src.decision import classifier, action_mapper
-from src.value_extractor import extract_values
 
 PROFILE_PATH = "data/profile.json"
 DECISION_PATH = "data/decisions.json"
+
+DEFAULT_VALUES = [
+    "Integrity",
+    "Authenticity",
+    "Autonomy",
+    "Courage",
+    "Contribution",
+    "Compassion",
+    "Growth",
+    "Stability",
+    "Creativity",
+    "Freedom"
+]
 
 # -------------------------
 # Helpers
@@ -86,7 +98,7 @@ with tab1:
         # -------------------------
         # USE YOUR EXISTING LOGIC
         # -------------------------
-        block = classifier(user_input)
+        block = classifier.classify_pattern(user_input)
         # -------------------------
 
         st.write(f"Detected Pattern: {block}")
@@ -103,7 +115,7 @@ with tab1:
         # -------- OPTIMIZER MODE --------
         if mode == "Unsure what’s best":
 
-            solution = get_solution(block)
+            solution = action_mapper.get_suggested_action(block)
 
             st.subheader("Suggested Next Move")
             st.write(solution)
