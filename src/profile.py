@@ -36,5 +36,5 @@ def run_profile_setup(extract_values_fn, rank_values_fn, st):
 
         save_profile(profile)
         st.success("Profile saved!")
-        st.experimental_rerun()
+        st.rerun()
 
