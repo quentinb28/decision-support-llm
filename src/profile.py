@@ -2,19 +2,6 @@ import json
 
 PROFILE_PATH = "data/profile.json"
 
-DEFAULT_VALUES = [
-    "Integrity",
-    "Authenticity",
-    "Autonomy",
-    "Courage",
-    "Contribution",
-    "Compassion",
-    "Growth",
-    "Stability",
-    "Creativity",
-    "Freedom"
-]
-
 def save_profile(profile):
     with open(PROFILE_PATH, "w") as f:
         json.dump(profile, f)
